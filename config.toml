@@ -1,0 +1,48 @@
+baseurl = "https://heatherlent.co/blog/"
+title = "Heather Lent's Blog"
+theme = "pickles"
+languageCode = "en-us"
+copyright = "&copy; Heather Lent 2017"
+paginate = 5
+paginatePath = "page"
+
+[Author]
+    name = "Heather"
+    profile = "https://heatherlent.co"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    headline = "Heather Lent's Blog"
+    description = "Heather Lent's technology blog, covering natural language processing, machine learning, and other trendy topics."
+    subtitle = "Heather Lent's technology blog, covering natural language processing, machine learning, and other trendy topics."
+    logo = "/favicon.png"
+    favicon = "/favicon.png"
+    github = "hclent"
+    twitter = "AzHeatherrr"
+    # ga_api_key = "UA-40399378-2"
+    avatar = "http://heatherlent.co/assets/images/image03.jpg"
+    author = "Heather Lent"
+    authorwebsite = "http://heatherlent.co"
+    bio = "NLP Engineer from Tucson, Arizona."
+    contact = "hclent1@gmail.com"
+    linkedin = "heather-lent-148307116"
+
+[Permalinks]
+    posts = "/:filename/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Website"
+    url = "https://heatherlent.co/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "https://heatherlent.co/#about"
+    weight = 4
