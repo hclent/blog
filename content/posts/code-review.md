@@ -29,7 +29,7 @@ This post will be **useful for intermediate programmers looking for ways to take
 
 The code snippet I've chosen to review comes from my [Science Citation Knowledge Extractor](https://github.com/hclent/Science-Citation-Knowledge-Extractor) tool. More specifically, it comes from a script called [journalvis.py](https://github.com/hclent/Science-Citation-Knowledge-Extractor/blob/master/flask/journalvis.py), which is used to generate a data visualization like this:
 
-![journal vis](https://raw.githubusercontent.com/hclent/blog/master/static/journals.png)
+![journal vis](blog/static/journals.png)
 
 This is an interactive data visualization that shows the distribution of articles published in academic journals by year. The top row shows the total number of articles published each year, and the subsequent rows show the total number of articles published in that particular journal each year when the user hovers over it. 
 
