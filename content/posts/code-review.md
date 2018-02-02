@@ -4,8 +4,6 @@ date: 2018-01-31T14:37:14+01:00
 tags: ["best practices", "python", "data vis"]
 ---
 
-## A Year in (Code) Review
-
 January is the time when people usually reflect on the past and create resolutions to improve themselves in the future. As such, I decided that this would also be a great time to **review some old code, identify weak spots, and build better coding habits for 2018**!
 
 To start, I began by looking at some code pushed to [my github](https://github.com/hclent) in 2017. It didn't take long to pick up on one pervasive pattern in my old code: an unwarented affinity for `for` loops, especially nested ones! For example, if you look through my old code, you may find something like this:
@@ -29,9 +27,9 @@ This post will be **useful for intermediate programmers looking for ways to take
 
 ### Now let's get to some code
 
-The code snippit I've chosen to review comes from my [Science Citation Knowledge Extractor](https://github.com/hclent/Science-Citation-Knowledge-Extractor) tool. More specifically, it comes from a script called [journalvis.py](https://github.com/hclent/Science-Citation-Knowledge-Extractor/blob/master/flask/journalvis.py), which is used to generate a data visualization like this:
+The code snippet I've chosen to review comes from my [Science Citation Knowledge Extractor](https://github.com/hclent/Science-Citation-Knowledge-Extractor) tool. More specifically, it comes from a script called [journalvis.py](https://github.com/hclent/Science-Citation-Knowledge-Extractor/blob/master/flask/journalvis.py), which is used to generate a data visualization like this:
 
-![journal vis](https://github.com/hclent/blog/blob/master/static/journals.png)
+![journal vis](https://raw.githubusercontent.com/hclent/blog/master/static/journals.png)
 
 This is an interactive data visualization that shows the distribution of articles published in academic journals by year. The top row shows the total number of articles published each year, and the subsequent rows show the total number of articles published in that particular journal each year when the user hovers over it. 
 
