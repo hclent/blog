@@ -26,7 +26,7 @@ paginatePath = "page"
     author = "Heather Lent"
     authorwebsite = "http://heatherlent.co"
     bio = "NLP Engineer in Salt Lake City"
-    contact = "hclent1@gmail.com"
+    contact = "mailto:hclent1@gmail.com"
     linkedin = "heather-lent-148307116"
 
 [Permalinks]
